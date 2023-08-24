@@ -50,6 +50,65 @@
  .nav-main-sub span{
     border: none;
  }
+ .nav-main-sub a{
+  text-decoration: none;
+}
+
+/* shop-------------------css */
+
+
+
+.shop-main-2 nav{
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.nav-logo{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  font-weight: 700;   
+  display: none;
+}
+.shop-nav-main{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #514f4f;
+}
+.shop-nav-main a{
+  text-decoration: none;
+  color: #514f4f;
+}
+.shop-nav-main div:hover a{
+  color: #514f4f;
+}
+.shop-active-btn span{
+  border: 1px solid rgb(247, 243, 243);
+  padding: 5px 18px;
+  border-radius: 5px;
+  background-color: rgb(245, 242, 242);
+}
+.nav-main-sub{
+  display: flex;
+  color: black;
+}
+.nav-main-sub span{
+  border: none;
+}
+
+
+
+/* shop-------------------------css */
+
  .main-3{
     display: flex;
     justify-content: space-around;
@@ -244,6 +303,7 @@
  .main-7-button-2 button{
    border: 1px solid white;
    background-color: white;
+   color: black;
  }
  .main-7-button-2 button:hover{
    border: 1px solid white;
@@ -257,31 +317,283 @@
    gap: 30px;
    justify-content: center;
    margin-bottom: 50px;
-   font-family: sans-serif;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
  .main-9-sub{
    background-color: #eeeeee;
    width: 27%;
-   height: 200px;
+   height: 180px;
    border: 1px solid #eeeeee;
    border-radius: 5px;
-   padding: 20px 10px;
+   padding: 15px 10px;
  }
  .m-9-h{
  font-weight: 500;
- font-size: 18px;
- margin-top: 10px;
+ font-size: 20px;
+ margin-bottom: 5px;
  }
  .m-9-text{
-   margin-top: 10px;
+color: #514f4f;
  }
  .m-9-logo{
-   margin-top: 25px;
+   margin-bottom: 15px;
  }
  .main-9-sub img{
    width: 15%;
  }
+ .main-10{
+  display: flex;
+  background-color: #6929a5;
+  margin-top: 90px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  align-items: center;
+  gap: 3%;
+  flex-wrap: wrap-reverse;
+}
+.main-10-img{
+  width: 40%;
+  padding-left: 6%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.main-10-img img{
+  width: 100%;
+}
+.main-10-text{
+  width: 60%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: white;
  
+}
+.main-10-text h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  font-weight:700;
+  color: white;
+}
+.main-10-text-sub{
+  width: 90%;
+ }
+.main-10-buttons{
+  display: flex;
+  margin-top: 35px;
+  gap: 10px;
+ 
+ 
+}
+.main-10-buttons button{
+  height: 45px;
+  width: 180px;
+  border: none;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+.main-10-button-1 button{
+  border: 1px solid white;
+  background-color:  white;
+  color:black;
+}
+.main-10-button-1 button:hover{
+  background-color: transparent;
+  transition: .5s;
+  border: 1px solid white;
+  color: white;
+}
+.main-10-button-2 button{
+  border: 1px solid #b267f8;
+  background-color:#b267f8;
+  color: white;
+}
+.main-10-button-2 button:hover{
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  transition: .5s;
+}
+.main-11{
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.main-12{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+.main-12-map{
+  width: 55%;
+  height: 550px;
+
+}
+.main-12-map iframe{
+  height: 550px;
+  width: 100%;
+
+}
+.main-12-form{
+  width: 45%;
+  text-align: center;
+  padding:15px 30px;
+
+}
+.main-12-form div{
+  margin-top: 25px;
+}
+.main-12-form input{
+  width: 100%;
+  height: 50px;
+}
+.main-12-form input::placeholder{
+  padding-left: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.main-12-form textarea{
+  width: 100%;
+  height: 120px;
+}
+.main-12-form textarea::placeholder{
+  padding-top: 45px;
+  padding-left: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.main-12-form-button button{
+  margin-top: 40px;
+  background-color: #db4566;
+  padding: 10px 40px;
+  border: 1px solid #db4566;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  letter-spacing: .5px;
+  color: white;
+}
+.main-12-form-button button:hover{
+  background-color: transparent;
+  color: #db4566;
+  font-weight: 500;
+}
+.main-14{
+  text-align: start;
+  margin-bottom: 50px;
+  
+}
+.main-14 button i{
+  color: black;
+  border: 1px solid #db4566;
+  padding: 60px 10px;
+  background-color: #db4566;
+}
+.carouselitem{
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 80px;
+  
+}
+.carouselitem-1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.carouselitem-1 span{
+  color: #db4566;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+.carouselitem-2{
+  margin-bottom: 7px;
+  color: #bdbaba;
+  font-weight: 500;
+}
+.carouselitem-3{
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: justify;
+}
+.main-15-footer{
+  padding: 40px;
+  background-color: #2d2d2d;
+  margin: 50px 0px;
+}
+.main-15-footer-sub-1{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.main-15-footer-sub-1 i{
+  color: white;
+  font-size: 18px;
+ 
+}
+.main-15-footer-sub-2{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.m15-f-s2-1{
+  width: 20%;
+}
+.m15-f-s2-2{
+  width: 20%;
+}
+.m15-f-s2-2 div{
+  margin-bottom: 10px;
+}
+.m15-f-s2-2 input{
+  width: 100%;
+  height: 35px;
+  margin-top: 20px;
+}
+.m15-f-s2-2 input::placeholder{
+  padding-left: 10PX;
+}
+.m15-f-s2-2 button{
+  background-color: #ee91a5;
+  border: 1px solid  #ee7d96;
+  color: white;
+  padding: 5px 30px;
+}
+.m15-f-s2-3{
+  width: 20%;
+}
+.m15-f-s2-4{
+  width: 20%;
+}
+
+.m-15-f-h{
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.main-15-footer-sub-3{
+  border-bottom: 1px solid white;
+  margin-top: 40px;
+  width: 80%;
+ margin:50px auto 20px;
+}
+.main-15-footer-sub-4{
+  color: white;
+  text-align: center;
+}
+.m-15-s2-item{
+  margin-bottom: 3px;
+}
+
+
  @media (min-width:300px) and (max-width:576px){
     .nav-logo{
         display: flex;
@@ -305,6 +617,28 @@
         display: flex;
         justify-content: center;
        }
+
+
+       /* template------------media */
+
+       .shop-main-2{
+        margin-top: 10px;
+        
+       }
+       .shop-main-2 nav{
+        background-color:white;
+        box-shadow: none;
+        }
+       .shop-nav-main{
+        display: inline;
+        text-align: center;
+        margin-top: 15px;
+        padding-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+       }
+
+        /* template------------media */
+
        .main-3{
         display: block;
         background-color: #f89cab;
@@ -348,13 +682,76 @@
      .main-7-img{
       width: 100%;
      }
+     .main-7-buttons button{
+      width: 90px;
+      height: 30px;
+      font-size: 12px;
+     }
      .main-9{
       flex-wrap: wrap;
-      padding: 20px 10px;
      }
      .main-9-sub{
       width: 80%;
      }
+     .main-10-text{
+      width: 100%;
+      padding: 25px 10px;
+     }
+     .main-10-text-sub{
+      width: 90%;
+     }
+     .main-10-img{
+      width: 100%;
+      padding-right: 5%;
+     }
+     .main-10-buttons button{
+      width: 90px;
+      height: 30px;
+      font-size: 12px;
+     }
+     .main-12-map{
+      width: 100%;
+    
+    }
+    .main-12-form{
+      width: 100%;
+      box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    
+    }
+    .main-12-form textarea{
+      width: 100%;
+      height: 80px;
+    }
+    .main-12-form textarea::placeholder{
+      padding-top: 20px;
+    }
+    .m15-f-s2-1{
+      width: 100%;
+      text-align: center;
+      margin-bottom:15px;
+    }
+    .m15-f-s2-2{
+      width: 100%;
+      text-align: center;
+      margin-bottom:15px;
+    }
+    .m15-f-s2-2 input{
+      margin-top: 10px;
+    }
+    .m15-f-s2-3{
+      width: 100%;
+      text-align: center;
+      margin-bottom:15px;
+    }
+    .m15-f-s2-4{
+      width: 100%;
+      text-align: center;
+      margin-bottom:15px;
+    }
+    .m-15-f-h{
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
 
  }
  @media (min-width:576px) and (max-width:768px){
@@ -380,6 +777,27 @@
         display: flex;
         justify-content: center;
        }
+
+       /* template------------media */
+      
+       .shop-main-2{
+        margin-top: 5px;
+       }
+       .shop-main-2 nav{
+        background-color:white;
+        box-shadow: none;
+        }
+       .shop-nav-main{
+        display: inline;
+        text-align: center;
+        margin-top: 15px;
+        padding-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+       }
+
+       /* template------------media */
+
+
        .main-3{
         display: block;
         background-color: #f89cab;
@@ -414,6 +832,41 @@
      .main-9-sub{
       width: 80%;
      }
+     .main-10-text{
+      width: 100%;
+      padding: 25px 10px;
+     }
+     .main-10-text-sub{
+      width: 90%;
+     }
+     .main-10-img{
+      width: 100%;
+      padding-right: 5%;
+     }
+     .main-12-map{
+      width: 100%;
+    
+    }
+    .main-12-form{
+      width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .m15-f-s2-1{
+      width: 46%;
+      margin-bottom:15px;
+    }
+    .m15-f-s2-2{
+      width: 46%;
+      margin-bottom:15px;
+    }
+    .m15-f-s2-3{
+      width: 46%;
+      margin-bottom:15px;
+    }
+    .m15-f-s2-4{
+      width: 46%;
+      margin-bottom:15px;
+    }
  }
  @media (min-width:768px) and (max-width:992px){
     .nav-logo{
@@ -438,6 +891,25 @@
         display: flex;
         justify-content: center;
        }
+
+        /* template------------media */
+        .shop-main-2{
+          margin-top: 5px;
+         }
+         .shop-main-2 nav{
+          background-color:white;
+          box-shadow: none;
+          }
+         .shop-nav-main{
+          display: inline;
+          text-align: center;
+          margin-top: 15px;
+          padding-top: 5px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+         }
+         /* template------------media */
+
+
        .main-5-sub{
          width: 40%;
          height: 290px;
@@ -454,6 +926,15 @@
         .main-7-buttons button{
          width: 150px;
         }
+        .main-10{
+          flex-wrap: nowrap;
+         }
+         .main-10-text{
+          padding: 25px 10px;
+         }
+         .main-10-buttons button{
+          width: 150px;
+         }
 
    
 }
@@ -468,6 +949,10 @@
      .main-7{
       flex-wrap: nowrap;
      }
+     .main-10{
+      flex-wrap: nowrap;
+     }
+
 
 
 }
@@ -475,4 +960,10 @@
    .main-7{
       flex-wrap: nowrap;
      }
+     .main-10{
+      flex-wrap: nowrap;
+     }
 }
+
+
+/* templates-----------------------nav-----------bar */
